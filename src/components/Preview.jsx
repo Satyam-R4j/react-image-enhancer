@@ -16,7 +16,7 @@ const Preview = (props) => {
             className="w-full h-full object-cover"
           />
         ) : (
-          <div className="flex items-center justify-center h-80  bg-gray-200">
+          <div className="flex items-center justify-center h-80 text-white  bg-gray-500">
             No image Selected
           </div>
         )}
@@ -32,7 +32,7 @@ const Preview = (props) => {
         {props.loading ? (
           <Loading />
         ) : (
-          <div className="flex items-center justify-center h-80  bg-gray-200">
+          <div className="flex items-center justify-center h-80 text-white  bg-gray-500">
             No Enhanced Image{" "}
           </div>
         )}
